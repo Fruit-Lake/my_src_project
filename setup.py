@@ -13,10 +13,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="my_src_project",
-    version="0.1.2",
+    version="0.1.3",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    install_requires=[],
+    install_requires=['imgrender'],
     extras_require={
         "dev": ["pytest"],
     },

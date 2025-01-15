@@ -8,6 +8,12 @@
 # @File    : module1.py
 # @IDE     : PyCharm
 
+from imgrender import render
 
-def sieg_heil():
-    return "Heil wkk!\nsb wkk!"
+
+def shell_img(path, shape=(60, 60)):
+    render(path, shape)
+
+
+if __name__ == "__main__":
+    render('tkfgs.png')
